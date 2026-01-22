@@ -1,1 +1,10 @@
-# ejercicio4
+<img width="1851" height="653" alt="imagen" src="https://github.com/user-attachments/assets/85371f6f-8240-42c1-bbbe-dbac5c5d2a48" />                                                                                   Cervezas Tlali 
+                                                                              
+
+La tienda Tlali, dedicada a la venta de cervezas artesanales con distintos sabores, actualmente carece de un sistema digital eficiente para gestionar las ventas y la interacción con sus clientes. Esto genera dificultades para mostrar el catálogo actualizado de cervezas, verificar la edad de los compradores, procesar pedidos de manera ágil y llevar un registro de las ventas por sabor y stock disponible. Además, no existe un espacio centralizado para promociones, anuncios importantes o información sobre nuevas variedades, lo que provoca desorganización y una experiencia de compra limitada para los clientes.
+
+Se decidió utilizar React como framework de frontend debido a su capacidad para crear interfaces reactivas y manejar de manera eficiente el estado de la aplicación. Esto permite, por ejemplo, mostrar un aviso obligatorio de verificación de edad (mayor de 18 años) antes de que los usuarios accedan a la tienda, actualizar el catálogo en tiempo real cuando se agregan nuevos sabores o cuando se agotan existencias, y gestionar de forma dinámica el carrito de compras y los pedidos.
+
+El manejo de estado en React facilita controlar la disponibilidad de los productos, aplicar promociones, registrar ventas y actualizar la información de stock de manera inmediata. Esto mejora significativamente la experiencia del cliente, haciéndola más interactiva, confiable y moderna en comparación con un sitio web estático, y permite que Tlali se posicione como una tienda digital organizada y atractiva para los amantes de la cerveza artesanal.
+
+<img width="1841" height="808" alt="Captura de pantalla 2026-01-21 201220" src="https://github.com/user-attachments/assets/4824a832-9059-4c00-bd4c-1929f1ea09b9" />
