@@ -72,3 +72,31 @@ No será necesario recargar la página para ver los cambios.
 El usuario podrá salir de la tienda en cualquier momento.
 
 El sistema limpiará el carrito si el usuario abandona la sesión.
+
+
+<img width="746" height="582" alt="Captura de pantalla 2026-01-21 202329" src="https://github.com/user-attachments/assets/40e17134-0827-4c50-ac87-7e6c58a2cc7a" />
+
+Tecnologías y Herramientas del Ecosistema
+Manejo de Estado Global
+
+Se utilizará Context API de React para gestionar el estado global de la aplicación.
+Esta herramienta permitirá controlar de manera centralizada la verificación de edad (+18), el carrito de compras y la disponibilidad de productos, evitando el paso excesivo de props entre componentes. Context API es adecuada para este proyecto debido a su simplicidad y buena integración nativa con React.
+
+Consumo de Datos
+
+Se empleará la Fetch API para el consumo de datos.
+Los datos de las cervezas artesanales (sabores, precios, descripciones e imágenes) se obtendrán desde una API REST simulada o un archivo JSON local, lo que facilita el desarrollo y las pruebas del sistema sin depender inicialmente de un backend complejo.
+
+Estilizado
+
+Se utilizará Tailwind CSS para el estilizado de la interfaz.
+Esta herramienta permite crear diseños modernos, responsivos y consistentes de manera rápida, facilitando la personalización de la identidad visual de Tlali, usando una paleta de colores acorde al concepto artesanal de la marca.
+
+Despliegue
+
+La aplicación será desplegada en Vercel.
+Vercel ofrece integración directa con proyectos React, despliegue automático desde GitHub y excelente rendimiento, lo que garantiza que la aplicación sea accesible desde cualquier dispositivo con conexión a internet.
+
+
+<img width="1536" height="1024" alt="ChatGPT Image 21 ene 2026, 08_36_06 p m" src="https://github.com/user-attachments/assets/37e720cd-e765-4123-922f-6668d83f131e" />
+
