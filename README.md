@@ -7,4 +7,68 @@ Se decidió utilizar React como framework de frontend debido a su capacidad para
 
 El manejo de estado en React facilita controlar la disponibilidad de los productos, aplicar promociones, registrar ventas y actualizar la información de stock de manera inmediata. Esto mejora significativamente la experiencia del cliente, haciéndola más interactiva, confiable y moderna en comparación con un sitio web estático, y permite que Tlali se posicione como una tienda digital organizada y atractiva para los amantes de la cerveza artesanal.
 
-<img width="1841" height="808" alt="Captura de pantalla 2026-01-21 201220" src="https://github.com/user-attachments/assets/4824a832-9059-4c00-bd4c-1929f1ea09b9" />
+
+
+Requerimientos Funcionales (El "Qué hace")
+
+1.-Verificación de edad
+
+El sistema mostrará un anuncio inicial solicitando confirmar que el usuario es mayor de 18 años antes de acceder a la tienda.
+
+El usuario podrá aceptar o rechazar el acceso según su edad.
+
+2.-Visualización del catálogo
+
+El usuario podrá visualizar el catálogo de cervezas artesanales Tlali.
+
+Cada producto mostrará información como nombre, sabor, descripción, precio e imagen.
+
+3.-Filtrado y exploración de productos
+
+El usuario podrá filtrar las cervezas por sabor, tipo o precio.
+
+El sistema actualizará la vista del catálogo sin recargar la página.
+
+4.-Gestión del carrito de compras
+
+El usuario podrá agregar cervezas al carrito de compras.
+
+Podrá modificar la cantidad o eliminar productos del carrito.
+
+El total de la compra se actualizará en tiempo real.
+
+5.-Proceso de compra
+
+El usuario podrá confirmar su pedido desde el carrito.
+
+El sistema mostrará un resumen de la compra antes de finalizarla.
+
+6.-Registro y control de pedidos
+
+El sistema registrará cada pedido realizado por el usuario.
+
+El usuario podrá visualizar el estado de su pedido (pendiente, confirmado o entregado).
+
+7.-Gestión de stock
+
+El sistema actualizará automáticamente la disponibilidad de las cervezas cuando se realiza una compra.
+
+Las cervezas agotadas se mostrarán como no disponibles.
+
+8.-Promociones y anuncios
+
+El sistema mostrará promociones especiales, lanzamientos de nuevos sabores y anuncios informativos.
+
+Las promociones se aplicarán automáticamente al total de la compra cuando correspondan.
+
+9.-Interfaz reactiva
+
+La interfaz se actualizará en tiempo real ante cualquier acción del usuario (agregar productos, aplicar filtros, modificar carrito).
+
+No será necesario recargar la página para ver los cambios.
+
+10.-Cierre de sesión o salida de la tienda
+
+El usuario podrá salir de la tienda en cualquier momento.
+
+El sistema limpiará el carrito si el usuario abandona la sesión.
